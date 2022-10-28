@@ -25,3 +25,27 @@ int main(){
 	printf("SUM:%d",num2+num1);
 }
 ```
+
+
+```
+int main(){
+	int i,j,flag=0;
+	int sum=0;
+	
+	for(i=50;i<=100;i++){
+		for(j=2;j<i/2;j++){
+			if(i%j==0){
+				flag=1;
+				break;
+			}
+		}
+		if(flag!=1){
+			printf("%d ",i);
+			sum+=i;
+		}
+		flag=0;
+	}
+	printf("\n\n%d",sum);
+}
+
+```
