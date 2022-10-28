@@ -49,3 +49,19 @@ int main(){
 }
 
 ```
+
+
+```
+int main(){
+	int i,j;
+	for(i=50;i>0;i--){
+		if(i%2==0 || i%3==0)
+			printf("00 ");
+		else
+			printf("%d ",i);
+		
+		if(i%5==1)
+			puts("\n");
+	}
+}
+```
